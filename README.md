@@ -1,6 +1,6 @@
 # CLI Todo Application
 
-- This is a simple command-line interface (CLI) application for managing a todo list. 
+- This is a simple command-line interface (CLI) application for managing a todo list.
 - You can add, complete, delete, and list tasks directly from your terminal.
 
 ![Demo Image](demo.png)
@@ -15,6 +15,7 @@
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/kasodeep/cli-todo.git
    ```
@@ -30,6 +31,7 @@
 - The files are stored in the `.todos.json` file.
 
 ## Usage
+
 ```bash
 # Add a todo
 ./clitodo -add "Buy groceries"
@@ -50,10 +52,10 @@
 ./clitodo -list
 ```
 
-## Install
+## Install (Test)
+
 ```bash
 # To run the todo list app anywhere in the system.
 # Make sure to add the .todos.json in the bin folder of Go.
 go install
 ```
-
